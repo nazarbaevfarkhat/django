@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Базовая шапка {% endblock %}</title>
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1>Шапка сайта</h1>
+
+{% block content %}
+
+{% endblock %}
+
+<h1>Подвал сайта</h1>
+</body>
+</html>
